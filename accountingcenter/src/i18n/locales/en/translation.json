@@ -1,0 +1,215 @@
+{
+  "address": "Yerevan, David Anhaght 11/6",
+  "mail": "adc.ngo.armenia@gmail.com",
+  "phoneNumber": "+374 91 77 50 02",
+  "navBar": {
+    "home": "Home",
+    "courses": "Courses",
+    "contact": "Contact",
+    "about": "About Us",
+    "register_here": "Register Here",
+    "contact_time_title": "Working Hours",
+    "contact_time_hours": "10:00 AM - 6:00 PM",
+    "phone_title": "Phone",
+    "email_title": "Email"
+  },
+  "sliderHome": {
+    "welcome": "ADC Training Center",
+    "trust_us": "Reliable solutions for a comfortable life"
+  },
+  "register": {
+    "title": "Register to participate in our courses",
+    "subtitle": "Would you like to speak with one of our consultants? Just enter your details and we’ll contact you soon. You can also email us if you prefer.",
+    "name_label": "Full Name",
+    "email_label": "Email Address",
+    "phone_label": "Phone Number",
+    "participation_label": "Participation Type",
+    "participation_placeholder": "Select type",
+    "participation_online": "Online",
+    "participation_offline": "Offline",
+    "occupation_label": "Occupation",
+    "occupation_placeholder": "Select option",
+    "occupation_worker": "Employed",
+    "occupation_student": "Student",
+    "occupation_other": "Other",
+    "message_label": "Message",
+    "send_btn": "Send",
+    "success": "Message sent successfully ✅",
+    "error": "Sending failed ⚠️"
+  },
+  "home": {
+    "why_choose": "Why choose ADC Training Center?",
+    "start_title": "Start Your Accounting Career Now",
+    "start_subtitle": "Structured courses from beginner to professional level.",
+    "register": "Register",
+    "courses_title": "We Offer the Following Courses",
+    "courses_list": [
+      "Financial Accounting",
+      "Tax and Labor Legislation",
+      "Electronic Reporting Systems",
+      "Electronic Invoicing Systems",
+      "AS Accountant 7 Software"
+    ],
+    "learn_more": "Learn More",
+    "services_title": "What Services Do We Provide?",
+    "services": [
+      "Course Implementation",
+      "Training",
+      "Qualification Improvement",
+      "Consulting Services in Accounting"
+    ],
+    "features": [
+      {
+        "title": "Professional and Practical Approach",
+        "description": "Courses are based on real accounting examples and workplace situations."
+      },
+      {
+        "title": "Certificate and Career Opportunities",
+        "description": "Outstanding students receive certificates and job offers from partners."
+      },
+      {
+        "title": "Modern Teaching Methods",
+        "description": "We use the latest digital tools to make learning more engaging and effective."
+      },
+      {
+        "title": "Post-course Support",
+        "description": "We provide ongoing consultation and career guidance even after course completion."
+      },
+      {
+        "title": "For Beginners and Professionals",
+        "description": "Programs are suitable for both newcomers and experienced professionals."
+      }
+    ]
+  },
+  "aboutPage": {
+    "who_we_are_title": "Who We Are",
+    "who_we_are_text": "Welcome to ADC Training Center 🌿✨. Our goal is to provide participants with up-to-date accounting knowledge relevant to today's professional standards.",
+    "for_whom_title": "Who Are Our Courses For?",
+    "for_whom_list": [
+      "Beginners with no prior accounting knowledge.",
+      "Those who wish to improve their professional accounting skills.",
+      "Organizations seeking to train their employees to meet modern requirements.",
+      "Managers and entrepreneurs who want to handle their own accounting.",
+      "🎯 Our mission is to help you acquire one of the most in-demand professions today."
+    ],
+    "faq_title": "Frequently Asked Questions",
+    "faq_subtitle": "ADC - Accounting Development Center",
+    "faq": [
+      {
+        "question": "What courses do you offer?",
+        "answer": [
+          "Financial Accounting",
+          "Tax Law",
+          "Accounting Software (HTS 7)"
+        ]
+      },
+      {
+        "question": "Who can join your courses?",
+        "answer": [
+          "Beginners, working accountants, and companies that want to upskill their employees."
+        ]
+      },
+      {
+        "question": "Do you provide a certificate?",
+        "answer": [
+          "Yes, participants receive a certificate after completing the course."
+        ]
+      }
+    ]
+  },
+  "aboutPage": {
+    "who_we_are_title": "Who We Are",
+    "who_we_are_text": "Welcome to ADC Training Center. 🌿✨ Our goal is to provide participants with up-to-date knowledge in the accounting field. The courses are designed for both beginners and practicing accountants. The course also introduces participants to Armenia's leading and most in-demand 1C Accounting 7 software.",
+    "target_title": "Who Are Our Courses For?",
+    "target_list": [
+      "Those who have no prior knowledge in accounting and want to acquire an accounting profession",
+      "Those who want to improve their accounting knowledge and skills for practical work",
+      "Organizations wishing their employees to gain modern knowledge and become more professional",
+      "Management personnel or individual entrepreneurs who want to manage accounting independently",
+      "Our goal is to help you acquire one of the most in-demand and high-paying professions today"
+    ],
+    "faq_title": "Frequently Asked Questions",
+    "faq_subtitle": "ADC - Accounting Development Center",
+    "faq": [
+      {
+        "question": "What courses do you offer?",
+        "answer": [
+          "Financial Accounting",
+          "Tax and Labor Legislation",
+          "Electronic system for report submission and issuing accounting documents",
+          "1C Accounting 7 software"
+        ]
+      },
+      {
+        "question": "Who can participate in the courses?",
+        "answer": [
+          "Those who have no prior knowledge in accounting and want to acquire an accounting profession",
+          "Those who want to improve their accounting knowledge and skills for practical work",
+          "Organizations wishing their employees to gain modern knowledge and become more professional",
+          "Management personnel or individual entrepreneurs who want to manage accounting independently"
+        ]
+      },
+      {
+        "question": "Where are the courses conducted?",
+        "answer": [
+          "Courses are conducted at Davit Anhaght 11/6, Gegharkunik region, Vardenik village, Armenia",
+          "Online via Zoom / Google Meet / MS Teams",
+          "Hybrid format depending on participants' preference"
+        ]
+      },
+      {
+        "question": "Is a certificate awarded after completion?",
+        "answer": [
+          "Participants who successfully complete the course receive a certificate. Outstanding students get the opportunity to work in partner organizations."
+        ]
+      },
+      {
+        "question": "What is the duration of the courses?",
+        "answer": [
+          "The total course duration is 5 months, 40 classes.",
+          "Courses are held twice a week for 2.5 hours each session.",
+          "We also have day and evening groups:",
+          "Day group: 13:30 - 16:00",
+          "Evening group: 18:00 - 20:30"
+        ]
+      },
+      {
+        "question": "How can I register?",
+        "answer": [
+          "Contact us by phone or email",
+          "Visit our office",
+          "Online via our website or Facebook/Instagram pages"
+        ]
+      },
+      {
+        "question": "Are intensive courses available?",
+        "answer": [
+          "Yes! We regularly organize intensive seminars lasting 1-2 weeks for participants with limited time."
+        ]
+      },
+      {
+        "question": "Who are the instructors?",
+        "answer": [
+          "Our instructors are experienced professionals — certified accountants, tax consultants, and financial analysts."
+        ]
+      },
+      {
+        "question": "Do the courses include practical work and internship opportunities?",
+        "answer": [
+          "Yes! Our courses include many practical examples, real document work, and accounting software usage. Outstanding students may join free internships in partner organizations."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "officeAddress": "Address",
+    "officeMail": "Email",
+    "officePhone": "Phone",
+    "followMe": "Join us",
+    "yourMessegeMe": "Send us a message",
+    "name": "First Last Name",
+    "message": "Message",
+    "send": "send"
+  },
+  "footer_text": "All rights reserved. Created by High-Tech Service."
+}

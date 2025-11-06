@@ -1,0 +1,132 @@
+.register {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background: var(--secound-bg-color);
+    background-size: cover;
+    background-position: center;
+    padding:4rem 7rem ;
+}
+
+.register-logo {
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.register-title {
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.register-subtitle {
+    color: var(--title-color);
+    text-align: left;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    width: 100%;
+    min-width: 320px;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-bottom: 6px;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.input-field {
+    flex: 1;
+    min-width: calc(50% - 1rem);
+}
+
+.input-field input,
+.input-field select,
+.textarea-field textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(200, 200, 200, 0.6);
+    outline: none;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+}
+
+.input-field input:focus,
+.input-field select:focus,
+.textarea-field textarea:focus {
+    border-color: rgb(9, 0, 186);
+}
+
+.textarea-field textarea {
+    resize: none;
+}
+
+.contact-btn {
+    margin-top: 1rem;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--content-color);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: var(--bg-color);
+    color: var(--content-color);
+}
+
+.full-width {
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .register {
+        flex-wrap: wrap;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 650px) {
+    .input-box {
+        display: block;
+    }
+  .contact-form {
+     padding: 0rem;
+    }
+    .register {
+    padding: 4rem;
+}
+.register-logo {
+    width: 10rem;
+}
+}
+@media (max-width: 410px) {
+   
+    .register {
+    padding: 2rem;
+}
+}

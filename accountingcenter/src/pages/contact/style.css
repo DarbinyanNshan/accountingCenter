@@ -1,0 +1,115 @@
+.contact-img {
+    background: url(../../assets/images/contact/contact-img.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+
+}
+
+.contact-img::before {
+   content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    text-align: left;
+    z-index: 1;
+}
+
+.contact-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--title-color);
+}
+
+.contact-text h6 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--content-color);
+}
+.contact-text h6 :hover{
+    cursor: pointer;
+}
+.contact-text span {
+    color: var(--title-color);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 5rem ;
+    padding: 4rem 0;
+    height: auto;
+    border-top: 5px solid var(--content-color);
+}
+
+.contact-border {
+    border: 0.1rem solid rgb(246, 246, 246);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 18.75rem; 
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+    opacity: 0;
+    transform: translateY(1.25rem);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.contact-border:hover {
+    box-shadow: var(--content-color);
+    border-color: var(--content-color);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--secound-bg-color);
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: var(--secound-bg-color);
+}
+
+.contact-text {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.in-view {
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInUp 1s forwards;
+}
+.contact-map>iframe {
+    width: 100%;
+    padding: 4rem 2rem;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(1.25rem); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

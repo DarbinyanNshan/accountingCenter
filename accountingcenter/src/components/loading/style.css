@@ -1,0 +1,50 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: white;
+}
+
+.mainLogo {
+    width: 40rem; 
+    height: auto;
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .mainLogo {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainLogo {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainLogo {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainLogo {
+        width: 20rem;
+    }
+}

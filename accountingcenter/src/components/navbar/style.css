@@ -1,0 +1,250 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secound-bg-color);
+    padding: 0.5rem 0;
+}
+
+.top_addres {
+    color: var(--title-color);
+    font-size: 1.2rem;
+}
+
+.top_addres>span {
+    color: var(--content-color);
+    padding: 0 0.4rem;
+}
+
+.top_btn {
+    background-color: var(--content-color);
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.9rem 2rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.top_btn:hover {
+    opacity: 0.9;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.contact-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.contentInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contentInfo>img {
+    width: 3rem;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 4rem;
+    padding: 1.5rem 6%;
+    background-color: var(--secound-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    z-index: 1002;
+}
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        top: -4rem;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.logo>img {
+    width: 8.75rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--content-color);
+}
+
+.nav-links a.active {
+    color: var(--content-color);
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.desktop-language {
+    display: block;
+}
+
+.mobile-language {
+    display: none;
+}
+
+/* =================  ================= */
+.navbar .new-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-links .close-icon {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: var(--title-color);
+    cursor: pointer;
+    z-index: 12;
+}
+
+.navbar .logo {
+    display: none;
+    /* Desktop-ում թաքցնել */
+}
+
+@media (max-width: 1180px) {
+    .navbar .logo {
+        display: block;
+        order: -1;
+        margin-right: auto;
+        padding: 1rem;
+
+    }
+
+    .top {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: right;
+        position: fixed;
+
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background-color: var(--secound-bg-color);
+        width: 70%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 0.45s ease-in-out;
+        text-align: center;
+        padding-top: 6rem;
+        z-index: 10;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links .close-icon {
+        display: block;
+    }
+
+    .nav-links {
+        gap: 0;
+    }
+
+    .nav-links a {
+        margin: 1.5rem 0;
+        font-size: 1.4rem;
+    }
+
+    .desktop-language {
+        display: none;
+    }
+
+    .mobile-language {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .navbar .new-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 11;
+    }
+}
+
+.contentInfo div h6 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--secound-bg-color);
+}
+
+.contentInfo div p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--content-color);
+}
