@@ -3,6 +3,9 @@ import { Router } from './layouts';
 import "./i18n";
 import { useEffect, useState } from 'react';
 import LoadingPage from './components/loading';
+import BackToTopButton from './components/backToButton';
+
+import FloatingRegisterBtn from './components/floatingRegisterBtn';
 
 
 function App() {
@@ -22,7 +25,8 @@ const [isLoading, setIsLoading] = useState(true);
       ) : (
         <div>
           <Router />
-          {/* <BackToTopButton /> */}
+          <BackToTopButton   />
+          <FloatingRegisterBtn/>
         </div>
       )}
     </div>    </div>

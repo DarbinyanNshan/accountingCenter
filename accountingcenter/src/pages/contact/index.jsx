@@ -45,7 +45,7 @@ export const Contact = () => {
                 <Register />
                 <div className="contact-map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1865.0076900942845!2d44.50562924612217!3d40.20316991008341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd387fb7fd3f%3A0xc540c6ec2630aead!2sHrachya%20Kochar%20St%2C%20Yerevan!5e0!3m2!1sru!2sam!4v1722245166997!5m2!1sru!2sam"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.2301660845555!2d44.5269981758766!3d40.203942771474566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd2d69a4f031%3A0x4b097a3c8a52eaa7!2s11%20Davit%20Anhaght%20Street%2C%20Yerevan%200014!5e0!3m2!1sru!2sam"
                         width="600"
                         height="450"
                         style={{ border: "0" }}

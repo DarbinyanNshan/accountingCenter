@@ -15,7 +15,7 @@ const AboutSlider = () => {
     slidesToScroll: 1,
     infinite: true,
     speed: 800,
-    arrows: false, // կպահենք false, որովհետև կոճակները մենք ենք ստեղծում
+    arrows: false, 
     fade: true,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -38,7 +38,6 @@ const AboutSlider = () => {
         ))}
       </Slider>
 
-      {/* Custom Navigation Buttons */}
       <div className="slider-buttons">
         <button onClick={() => mainSlider.current.slickPrev()} className="prev-btn">
           ❮

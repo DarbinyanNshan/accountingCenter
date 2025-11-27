@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 export const Footer = () => {
     const { t } = useTranslation();
 
- 
+
 
     return (
         <>
@@ -29,23 +29,23 @@ export const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="website">
+                <div className="website" >
                     <div className="website_icon">
                         <div className="fa">
-                            <a href="https://www.facebook.com/adcaccounting.am" aria-label="Facebook">
+                            <a href="https://www.facebook.com/adcaccounting.am" aria-label="Facebook" target="_blank">
                                 <BiLogoFacebook />
                             </a>
                         </div>
                         <div className="in">
-                            <a href="https://www.instagram.com/adc_accounting_/" aria-label="Instagram">
+                            <a href="https://www.instagram.com/adc__academy/" aria-label="Instagram" target="_blank">
                                 <FaInstagram />
                             </a>
                         </div>
-                        {/* <div className="li">
-                            <a href="https://www.linkedin.com/company/eco-clim-armenia/" aria-label="LinkedIn">
+                        <div className="li">
+                            <a href="https://www.linkedin.com/company/adc-accounting-development-center/" aria-label="LinkedIn" target="_blank">
                                 <BiLogoLinkedin />
                             </a>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

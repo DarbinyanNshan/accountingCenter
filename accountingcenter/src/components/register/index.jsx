@@ -7,6 +7,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/images/home/registrlogo.png";
 
+import { BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa";
+
 export const Register = () => {
   const { t } = useTranslation();
   const form = useRef(null);
@@ -60,6 +63,25 @@ export const Register = () => {
         <img src={logo} alt="Register Logo" className="register-logo" />
         <h2 className="register-title">{t("register.title")}</h2>
         <p className="register-subtitle">{t("register.subtitle")}</p>
+        <div className="website">
+          <div className="website_icon">
+            <div className="fa">
+              <a href="https://www.facebook.com/adcaccounting.am" aria-label="Facebook" target="_blank">
+                <BiLogoFacebook />
+              </a>
+            </div>
+            <div className="in">
+              <a href="https://www.instagram.com/adc_accounting_/" aria-label="Instagram" target="_blank">
+                <FaInstagram />
+              </a>
+            </div>
+            <div className="li">
+              <a href="https://www.linkedin.com/company/adc-accounting-development-center/" aria-label="LinkedIn" target="_blank">
+                <BiLogoLinkedin />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
@@ -85,8 +107,9 @@ export const Register = () => {
             <label htmlFor="participation">{t("register.participation_label")}</label>
             <select id="participation" name="participation" required>
               <option value="">{t("register.participation_placeholder")}</option>
-              <option value="online">{t("register.participation_online")}</option>
               <option value="offline">{t("register.participation_offline")}</option>
+              <option value="online">{t("register.participation_online")}</option>
+              <option value="offline">{t("register.participation_offline_online")}</option>
             </select>
           </div>
         </div>
@@ -112,7 +135,6 @@ export const Register = () => {
           {t("register.send_btn")}
         </button>
       </form>
-
       <ToastContainer />
     </div>
   );

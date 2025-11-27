@@ -166,25 +166,13 @@
 }
 
 .faq_answer_list li::before {
-    content: "✨";
     position: absolute;
     left: 0;
     top: 0;
     font-size: 1rem;
 }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-    .faq_item h4 {
-        font-size: 1.1rem;
-    }
 
-    .faq_answer_list li {
-        font-size: 0.95rem;
-    }
-}
-
-/* --- Միջին էկրաններ (tablet) --- */
 @media (max-width: 1024px) {
     .about-text h1 {
         font-size: 2.5rem;
@@ -193,6 +181,7 @@
     .about_content {
         gap: 2rem;
         padding: 3rem 4%;
+        margin: 3rem;
     }
 
     .about_text h2 {
@@ -206,10 +195,16 @@
     .about-image {
         max-width: 45%;
     }
+    .faq_answer_list li {
+        font-size: 0.95rem;
+        height: auto;
+        max-width: 40rem;
+    }
 }
 
 /* --- Փոքր էկրաններ (mobile) --- */
 @media (max-width: 768px) {
+
     .about_content {
         flex-direction: column;
         align-items: center;
@@ -244,10 +239,18 @@
     .about_question_content h3 {
         font-size: 1.5rem;
     }
+      .faq_item h4 {
+        font-size: 1.1rem;
+    }
+
+    .faq_answer_list li {
+        font-size: 0.95rem;
+        height: auto;
+        max-width: 30rem;
+        }
 }
 
-/* --- Շատ փոքր էկրաններ --- */
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .about-img {
         height: 25vh;
     }
@@ -269,4 +272,12 @@
         padding: 2rem 1rem;
         margin-top: 3rem;
     }
+       .faq_answer_list li {
+        max-width: 20rem;
+        }
+}
+@media (max-width: 410px) {
+       .faq_answer_list li {
+        max-width: 15rem;
+        }
 }

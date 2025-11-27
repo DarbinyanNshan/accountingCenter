@@ -1,0 +1,172 @@
+.page {
+  padding: 3rem 2rem;
+  background-color: var(--title-color);
+  color: var(--text-color);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.course-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, var(--secound-bg-color), var(--content-color));
+  border-radius: 1rem;
+  color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.course-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.course-header .breadcrumb {
+  font-size: 1rem;
+  color: #f0f0f0;
+  opacity: 0.9;
+}
+
+.about-section,
+.learn-section,
+.forwhom-section,
+.advantages-section {
+  max-width: 70rem;
+  margin: 0 auto 3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem 3rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.about-section:hover,
+.learn-section:hover,
+.forwhom-section:hover,
+.advantages-section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.about-section h2,
+.learn-section h2,
+.forwhom-section h2,
+.advantages-section h2 {
+  font-size: 1.8rem;
+  color: var(--secound-bg-color);
+  border-left: 6px solid var(--content-color);
+  padding-left: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.details {
+  margin-top: 1rem;
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--content-color);
+}
+
+.details p {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-left: 1.8rem;
+  list-style-type: disc;
+  color: var(--text-color);
+}
+
+ul li {
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+ul li:hover {
+  color: var(--content-color);
+  transform: translateX(5px);
+}
+
+.course-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.course-actions button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f6982c, #ffb347);
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-actions button:hover {
+  transform: translateY(-5px) rotateX(3deg);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.course-actions button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--title-color);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.course-actions button:hover::after {
+  width: 100%;
+}
+
+.back-btn {
+  background: linear-gradient(135deg, #334662, #1b1b1b);
+}
+
+.register-btn {
+  background: linear-gradient(135deg, #f6982c, #ffb347);
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 6.5rem 1rem;
+  }
+
+  .course-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-section,
+  .learn-section,
+  .forwhom-section,
+  .advantages-section {
+    padding: 1.5rem;
+  }
+
+  .about-section h2,
+  .learn-section h2,
+  .forwhom-section h2,
+  .advantages-section h2 {
+    font-size: 1.4rem;
+  }
+}

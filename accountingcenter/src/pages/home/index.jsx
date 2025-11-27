@@ -10,9 +10,12 @@ import img3 from "../../assets/images/iconsHome/like.png";
 import img4 from "../../assets/images/iconsHome/hand-in-hand.png";
 import img5 from "../../assets/images/iconsHome/confidence.png";
 import imgTree from "../../assets/images/home/homeTree.jpg";
+import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
 
   const FEATURES = [
     {
@@ -41,6 +44,17 @@ export const Home = () => {
       description: t("home.features.4.description"),
     },
   ];
+const handleRegisterClick = () => {
+    navigate("/contact");
+    setTimeout(() => {
+      window.scrollTo({ top: 900, behavior: "smooth" }); 
+    }, 400);
+  };
+
+    const goToCourses = () => {
+    navigate("/courses"); 
+    window.scrollTo({ top: 0, behavior: "smooth" }); 
+  };
 
   return (
     <>
@@ -66,7 +80,7 @@ export const Home = () => {
         <div className="homeTwo">
           <h2>{t("home.start_title")}</h2>
           <h6>{t("home.start_subtitle")}</h6>
-          <button>{t("home.register")}</button>
+          <button onClick={handleRegisterClick}>{t("home.register")}</button>
         </div>
 
         {/* === COURSES === */}
@@ -75,9 +89,9 @@ export const Home = () => {
           <div className="homeTree_content">
             <h2>{t("home.courses_title")}</h2>
             {t("home.courses_list", { returnObjects: true }).map((c, i) => (
-              <p key={i}>✨ {c}</p>
+              <p key={i}> {c}</p>
             ))}
-            <button>{t("home.learn_more")}</button>
+            <button onClick={goToCourses}>{t("home.learn_more")}</button>
           </div>
         </div>
 
@@ -88,9 +102,9 @@ export const Home = () => {
           <div className="home_services_content">
             <h2 className="home_services_title">{t("home.services_title")}</h2>
             {t("home.services", { returnObjects: true }).map((s, i) => (
-              <p key={i}>✨ {s}</p>
+              <p key={i}> {s}</p>
             ))}
-            <button>{t("home.learn_more")}</button>
+            <button onClick={goToCourses}>{t("home.learn_more")}</button>
           </div>
           <AboutSlider />
         </div>

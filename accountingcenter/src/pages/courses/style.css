@@ -1,5 +1,57 @@
-h1{
-    text-align: center;
-    margin: 10rem;
-    color: var(--text-color);
+.courses-img {
+    background: url(../../assets/images/courses/courses-img.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+
+}
+
+.courses-img::before {
+   content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+.courses-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    text-align: left;
+    z-index: 1;
+}
+
+.courses-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--title-color);
+}
+
+.courses-text h6 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--content-color);
+}
+.courses-text h6 :hover{
+    cursor: pointer;
+}
+.courses-text span {
+    color: var(--title-color);
+}
+
+@media (max-width: 600px) {
+.courses-text h1{
+    font-size: 1.9rem;
+    margin-top: 5rem;
+}
+.courses-text h6{
+    font-size: 0.8rem;
+   
+}
 }

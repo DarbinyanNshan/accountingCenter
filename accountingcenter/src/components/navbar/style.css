@@ -8,12 +8,16 @@
 
 .top_addres {
     color: var(--title-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 1.2rem;
 }
 
 .top_addres>span {
     color: var(--content-color);
     padding: 0 0.4rem;
+    transform: translateY(3.4px);
 }
 
 .top_btn {
@@ -80,6 +84,10 @@
 }
 
 .navbar.fixed {
+    .website_top {
+        display: none;
+    }
+
     position: fixed;
     top: 0;
     left: 0;
@@ -131,14 +139,6 @@
     gap: 1.5rem;
 }
 
-.desktop-language {
-    display: block;
-}
-
-.mobile-language {
-    display: none;
-}
-
 /* =================  ================= */
 .navbar .new-toggle {
     display: none;
@@ -160,7 +160,6 @@
 
 .navbar .logo {
     display: none;
-    /* Desktop-ում թաքցնել */
 }
 
 @media (max-width: 1180px) {
@@ -220,20 +219,15 @@
         font-size: 1.4rem;
     }
 
-    .desktop-language {
-        display: none;
-    }
-
-    .mobile-language {
-        display: block;
-        margin-top: 2rem;
-    }
-
     .navbar .new-toggle {
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 11;
+    }
+
+    .website_top {
+        display: none;
     }
 }
 

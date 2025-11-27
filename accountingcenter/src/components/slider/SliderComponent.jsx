@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.css";
 
-import stafImg from "../../assets/images/slider/staf-img.png";
+import stafImg from "../../assets/images/logo/loading.png";
 import img1 from "../../assets/images/slider/2.jpg";
 import img2 from "../../assets/images/slider/2.jpg";
 

@@ -11,11 +11,12 @@
     "contact_time_title": "Working Hours",
     "contact_time_hours": "10:00 AM - 6:00 PM",
     "phone_title": "Phone",
-    "email_title": "Email"
+    "email_title": "Email",
+    "registrHer": "Register Here"
   },
   "sliderHome": {
     "welcome": "ADC Training Center",
-    "trust_us": "Reliable solutions for a comfortable life"
+    "trust_us": "«Think Smart. Count Smarter. — ADC»"
   },
   "register": {
     "title": "Register to participate in our courses",
@@ -27,6 +28,7 @@
     "participation_placeholder": "Select type",
     "participation_online": "Online",
     "participation_offline": "Offline",
+    "participation_offline_online": "Hybrid (online and offline)",
     "occupation_label": "Occupation",
     "occupation_placeholder": "Select option",
     "occupation_worker": "Employed",
@@ -83,43 +85,7 @@
   },
   "aboutPage": {
     "who_we_are_title": "Who We Are",
-    "who_we_are_text": "Welcome to ADC Training Center 🌿✨. Our goal is to provide participants with up-to-date accounting knowledge relevant to today's professional standards.",
-    "for_whom_title": "Who Are Our Courses For?",
-    "for_whom_list": [
-      "Beginners with no prior accounting knowledge.",
-      "Those who wish to improve their professional accounting skills.",
-      "Organizations seeking to train their employees to meet modern requirements.",
-      "Managers and entrepreneurs who want to handle their own accounting.",
-      "🎯 Our mission is to help you acquire one of the most in-demand professions today."
-    ],
-    "faq_title": "Frequently Asked Questions",
-    "faq_subtitle": "ADC - Accounting Development Center",
-    "faq": [
-      {
-        "question": "What courses do you offer?",
-        "answer": [
-          "Financial Accounting",
-          "Tax Law",
-          "Accounting Software (HTS 7)"
-        ]
-      },
-      {
-        "question": "Who can join your courses?",
-        "answer": [
-          "Beginners, working accountants, and companies that want to upskill their employees."
-        ]
-      },
-      {
-        "question": "Do you provide a certificate?",
-        "answer": [
-          "Yes, participants receive a certificate after completing the course."
-        ]
-      }
-    ]
-  },
-  "aboutPage": {
-    "who_we_are_title": "Who We Are",
-    "who_we_are_text": "Welcome to ADC Training Center. 🌿✨ Our goal is to provide participants with up-to-date knowledge in the accounting field. The courses are designed for both beginners and practicing accountants. The course also introduces participants to Armenia's leading and most in-demand 1C Accounting 7 software.",
+    "who_we_are_text": "Welcome to ADC Training Center.  Our goal is to provide participants with up-to-date knowledge in the accounting field. The courses are designed for both beginners and practicing accountants. The course also introduces participants to Armenia's leading and most in-demand 1C Accounting 7 software.",
     "target_title": "Who Are Our Courses For?",
     "target_list": [
       "Those who have no prior knowledge in accounting and want to acquire an accounting profession",
@@ -200,6 +166,152 @@
         ]
       }
     ]
+  },
+  "courses": {
+    "back": "Back",
+    "finance": {
+      "title": "Financial Accounting",
+      "description": "Duration: 2 months, 16 lessons",
+      "breadcrumb": "About the Course",
+      "about": {
+        "title": "About the Course",
+        "text": "The goal of the Financial Accounting course is to provide participants with foundational knowledge of accounting and finance. Upon completion, students will be ready to work in financial and accounting departments of various organizations."
+      },
+      "details": {
+        "duration": "Total duration: 2 months, 16 lessons",
+        "evening": "Evening group: 6:30 PM – 9:00 PM",
+        "format": "Format: Offline / Online / Hybrid"
+      },
+      "willLearn": {
+        "title": "During the course, you will:",
+        "list": [
+          "Learn the basic principles and methodology of accounting.",
+          "Recognize accounting documents and perform primary bookkeeping for real transactions.",
+          "Prepare and analyze basic financial statements using acquired knowledge."
+        ]
+      },
+      "forWhom": {
+        "title": "Who is this course for:",
+        "list": [
+          "Those with no prior accounting knowledge who wish to become accountants.",
+          "Those who want to enhance their accounting skills for practical work.",
+          "Companies that want their employees to receive up-to-date, professional training.",
+          "Business owners and entrepreneurs who want to manage their own accounting.",
+          "University students and graduates."
+        ]
+      },
+      "advantages": {
+        "title": "Advantages:",
+        "list": [
+          "Participants successfully completing the course receive a certificate.",
+          "Real accounting knowledge gained through practical exercises and real-world examples.",
+          "Internship opportunities at partner organizations for top students.",
+          "Professional and experienced instructors."
+        ]
+      }
+    },
+    "armenianProgram": {
+      "title": "Armenian Accounting Program (HSoft)",
+      "about": {
+        "title": "About the Course",
+        "text": "The goal of the 'Armenian Accounting Program' course is to provide participants with practical knowledge of the HSoft accounting software, allowing them to confidently work with one of the most widely used accounting systems in Armenia."
+      },
+      "details": {
+        "duration": "Total duration: 1 month, 10 lessons",
+        "evening": "Evening group: 18:30–21:00",
+        "format": "Format: In-person / Online / Hybrid"
+      },
+      "willLearn": {
+        "title": "During the course, you will learn to:",
+        "list": [
+          "Understand the logic and structure of the HSoft accounting system",
+          "Enter documents and perform various types of transactions",
+          "Generate reports on turnover, balances, and statements",
+          "Handle salary calculations, payments, and reporting procedures",
+          "Efficiently use the program to automate accounting workflows"
+        ]
+      },
+      "forWhom": {
+        "title": "Who is this course for?",
+        "list": [
+          "Beginner accountants who want to gain practical experience",
+          "Active professionals seeking to enhance or refresh their skills",
+          "Company managers and finance department staff who want to manage accounting independently",
+          "University students and recent graduates"
+        ]
+      }
+    },
+    "taxation": {
+      "title": "Tax Legislation",
+      "about": {
+        "title": "About the Course",
+        "text": "The Tax Legislation course aims to familiarize participants with Armenia's tax system, tax rates, calculation rules, and tax reporting, combining theoretical knowledge with practical real-world tasks."
+      },
+      "details": {
+        "duration": "Total duration: 2 months, 14 lessons",
+        "schedule": "Classes are held twice a week, evening group: 18:30-21:00",
+        "format": "Format: In-person / Online / Hybrid"
+      },
+      "willLearn": {
+        "title": "During the course, you will learn to:",
+        "list": [
+          "Understand the structure of the tax system and functions of tax authorities",
+          "Master the main provisions of tax legislation and their application principles",
+          "Get familiar with main taxes in Armenia: profit tax, income tax, VAT, turnover tax, etc.",
+          "Prepare tax reports and manage deadlines",
+          "Learn to calculate taxes for different legal forms (SP, LLC, etc.)",
+          "Understand penalties for violations of tax law",
+          "Gain a comprehensive understanding of the Armenian tax system",
+          "Correctly apply tax legislation"
+        ]
+      },
+      "forWhom": {
+        "title": "Who is this course for?",
+        "list": [
+          "Accountants and finance specialists",
+          "Economists and tax consultants",
+          "Company managers and finance department staff",
+          "Lawyers working in finance and taxation",
+          "University students and graduates"
+        ]
+      },
+      "advantages": {
+        "title": "Advantages",
+        "list": [
+          "Participants who successfully complete the course receive a certificate",
+          "Acquire real accounting knowledge with practical examples, calculations, and common work situations",
+          "Opportunity for internship at partner organizations for top students",
+          "Professional and experienced teaching staff"
+        ]
+      }
+    },
+    "training": {
+      "title": "Professional Training",
+      "about": {
+        "title": "About Training",
+        "text": "ADC Training Academy also provides employee training according to modern requirements, allowing staff to become more professional in their work."
+      },
+      "details": {
+        "schedule": "Training: 18:30–21:00",
+        "format": "Format: In-person / Online / Hybrid"
+      },
+      "forWhom": {
+        "title": "Who is this for?",
+        "list": [
+          "Organizations seeking to have more professional employees",
+          "Finance managers who want their staff to be more professional but cannot train them due to time constraints",
+          "Employees who want to gain practical, up-to-date knowledge to improve their skills"
+        ]
+      },
+      "advantages": {
+        "title": "Advantages",
+        "list": [
+          "Participants who successfully complete the course receive a certificate",
+          "Acquire real accounting knowledge with practical examples and calculations",
+          "Professional and experienced teaching staff"
+        ]
+      }
+    }
   },
   "contact": {
     "officeAddress": "Address",

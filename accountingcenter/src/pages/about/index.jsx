@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion"; // <--- ավելացվեց
+import { motion, AnimatePresence } from "framer-motion"; 
 import "./style.css";
 
 export const About = () => {
@@ -14,7 +14,6 @@ export const About = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // FAQ տվյալները i18n-ից բեռնել
   const faqData = t("aboutPage.faq", { returnObjects: true });
   const targetList = t("aboutPage.target_list", { returnObjects: true });
 
@@ -39,7 +38,7 @@ export const About = () => {
           <h3>{t("aboutPage.target_title")}</h3>
           <ul>
             {targetList.map((item, i) => (
-              <li key={i}>👉 {item}</li>
+              <li key={i}> {item}</li>
             ))}
           </ul>
         </div>
@@ -54,7 +53,6 @@ export const About = () => {
             <div key={index} className="faq_item">
               <h4 onClick={() => toggleFAQ(index)}>{item.question}</h4>
 
-              {/* AnimatePresence + motion.div */}
               <AnimatePresence>
                 {openIndex === index && (
                   <motion.ul
